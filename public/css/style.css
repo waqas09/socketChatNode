@@ -1,0 +1,77 @@
+
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+	color: #333333;
+	background-color: #24282B;
+}
+
+#container {
+	width: 640px;
+	padding: 10px;
+	margin: 20px auto 20px auto;
+}
+
+h2 {
+	margin: 10px;
+	color: #CCC;
+}
+
+#conversation {
+	width: 600px;
+	height: 300px;
+	margin: 10px;
+	padding: 10px;
+	border: solid 1px #999;
+	border-radius: 4px;
+	overflow-y: scroll;
+	background-color: #CCC;
+}
+
+.message {
+	margin: 2px;
+}
+
+strong.message {
+	color: #222222;
+}
+
+#controls {
+	margin: 10px;
+}
+
+#controls input[type="text"] {
+	clear: none;
+	height: 20px;
+	line-height: 20px;
+	margin-right: 10px;
+	padding: 3px;
+	border-radius: 4px;
+	background-color: #CCC;
+	font-size: 13px;
+}
+
+input#nameField {
+	width: 120px;
+}
+
+input#messageField {
+	width: 400px;
+}
+
+#controls input[type="button"] {
+	width: 60px;
+	height: 30px;
+	border-radius: 4px;
+}
+
+#flasher {
+	float: right;
+	margin: 0 20px;
+	font-size: 32px;
+	color: #CCC;
+}
+
+#flasher:before {
+	content: "\2764";
+}

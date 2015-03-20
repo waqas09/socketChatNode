@@ -1,0 +1,11 @@
+{
+    "name": "SocketChat",
+    "description": "SocketChat",
+    "author": "Manuel Menzella",
+    "version": "0.0.1",
+    "dependencies": {
+        "express": "4.x.x",
+        "jade": "1.x.x",
+        "socket.io": "0.9.x"
+    }
+}

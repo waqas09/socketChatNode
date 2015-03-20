@@ -1,0 +1,19 @@
+doctype html
+html
+	head
+		title= "SocketChat"
+		link(href="/css/style.css", rel="stylesheet")
+		script(src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js")
+		script(src="/socket.io/socket.io.js")
+		script(src="/js/chatClient.js")
+
+	body
+		#container
+			h2
+				| SocketChat
+			#conversation
+			#controls
+				input#nameField(type="text", placeholder="Enter name...")
+				input#messageField(type="text", placeholder="Type, and press \"Enter\" to send...")
+				input#sendButton(type="button", value="Send")
+			#flasher
